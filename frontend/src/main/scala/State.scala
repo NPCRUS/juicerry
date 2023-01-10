@@ -1,6 +1,7 @@
+import com.raquo.airstream.web.AjaxEventStream
 import com.raquo.laminar.api.L.*
 import components.ThreeStateSwitch
-import models.{Ingredient, Recipe}
+import models.{Ingredient, JsonSupport, Recipe}
 import org.scalajs.dom.{EventSource, MouseEvent}
 
 object State {
@@ -14,12 +15,18 @@ object State {
     Ingredients.all.map((_, Var(ThreeStateSwitch.State.Neutral)))
   )
 
-  val recipes = onSearchStream.map { _ =>
-    val currentFilters = filters.now()
-    val allowedIngredients = currentFilters.filter(_._2.now() == ThreeStateSwitch.State.Positive)
-    val bannedIngredients = currentFilters.filter(_._2.now() == ThreeStateSwitch.State.Negative).map(_._1)
-    
-    RecipesTestData.apply()
-      .filter(r => r.ingredients.map(_.ingredient).intersect(bannedIngredients).isEmpty)
+  val recipesStream = AjaxEventStream.get(
+    url = "./recipes.json"
+  ).map(r => JsonSupport.decodeRecipes(r.responseText))
+
+  val recipes = onSearchStream
+    .flatMap(_ => recipesStream)
+    .map { recipes =>
+      val currentFilters = filters.now()
+      val allowedIngredients = currentFilters.filter(_._2.now() == ThreeStateSwitch.State.Positive)
+      val bannedIngredients = currentFilters.filter(_._2.now() == ThreeStateSwitch.State.Negative).map(_._1)
+
+      recipes
+        .filter(r => r.ingredients.map(_.ingredient).intersect(bannedIngredients).isEmpty)
   }
 }
