@@ -41,6 +41,12 @@ object RecipesSection {
       div(
         cls("flex flex-row flex-wrap gap-1"),
         children <-- EventStream.fromValue(recipe.tags).map(_.map(label("bg-green-500")))
+      ),
+      div(
+        cls("flex"),
+        span(
+          "Votes: 15"
+        )
       )
     )
   )
