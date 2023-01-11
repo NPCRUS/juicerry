@@ -28,26 +28,27 @@ object RecipesSection {
       )
     ),
     div(
-      cls("flex flex-col basis-3/4 gap-2"),
-      h2(
-        cls("text-lg"),
-        recipe.title
-      ),
-      p(recipe.description),
+      cls("flex flex-col basis-3/4 justify-between"),
       div(
-        cls("flex flex-row flex-wrap gap-1"),
-        children <-- EventStream.fromValue(recipe.ingredients).map(_.map(_.toStringLabel).map(label("bg-lime-500")))
+        cls("flex flex-col gap-2"),
+        h2(
+          cls("text-lg"),
+          recipe.title
+        ),
+        p(recipe.description),
+        div(
+          cls("flex flex-row flex-wrap gap-1"),
+          children <-- EventStream.fromValue(recipe.ingredients).map(_.map(_.toStringLabel).map(label("bg-lime-500")))
+        ),
+        div(
+          cls("flex flex-row flex-wrap gap-1"),
+          children <-- EventStream.fromValue(recipe.tags).map(_.map(label("bg-green-500")))
+        ),
       ),
       div(
-        cls("flex flex-row flex-wrap gap-1"),
-        children <-- EventStream.fromValue(recipe.tags).map(_.map(label("bg-green-500")))
-      ),
-      div(
-        cls("flex"),
-        span(
-          "Votes: 15"
-        )
+        cls("flex justify-end"),
+        label("bg-gray-200")("Votes: 15")
       )
-    )
+  ),
   )
 }

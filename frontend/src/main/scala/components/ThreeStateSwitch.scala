@@ -15,7 +15,7 @@ object ThreeStateSwitch {
       case State.Positive => "bg-green-200"
     }
 
-    label(
+    div(
       cls("inline-flex relative items-center justify-between"),
       span(
         cls("ml-3 text-sm mr-4"),
