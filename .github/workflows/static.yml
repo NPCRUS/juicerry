@@ -37,9 +37,15 @@ jobs:
         with:
           distribution: 'temurin'
           java-version: '17'
-      - name: Test sbt
-        run: sbt --version
+      - name: Compile artifacts
+        run: sbt frontend/fullLinkJS
+      - name: Combine artifacts
       - name: Upload artifact
+        run: |
+            mkdir _static
+            cp frontend/index.html frontend/recipes.json frontend/tailwind.config.js _static/
+            cp -r frontend/target/scala-3.2.1/frontend-opt/*.js _static/
+            ls _static
         uses: actions/upload-pages-artifact@v1
         with:
           # Upload entire repository
