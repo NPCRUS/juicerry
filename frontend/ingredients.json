@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "name": "Äpfel",
+    "typ": "AllYear"
+  },
+  {
+    "id": 2,
+    "name": "Ingwer",
+    "typ": "Spice"
+  },
+  {
+    "id": 3,
+    "name": "Kurkuma",
+    "typ": "Spice"
+  },
+  {
+    "id": 4,
+    "name": "Orangen",
+    "typ": "Exotic"
+  },
+  {
+    "id": 5,
+    "name": "Zitrone",
+    "typ": "Exotic"
+  },
+  {
+    "id": 6,
+    "name": "Honig",
+    "typ": "AllYear"
+  },
+  {
+    "id": 7,
+    "name": "Sellerie",
+    "typ": "AllYear"
+  },
+  {
+    "id": 8,
+    "name": "Ananas",
+    "typ": "Exotic"
+  },
+  {
+    "id": 9,
+    "name": "Limette",
+    "typ": "Exotic"
+  },
+  {
+    "id": 10,
+    "name": "Romanasalat",
+    "typ": "AllYear"
+  },
+  {
+    "id": 11,
+    "name": "Feldsalat",
+    "typ": "AllYear"
+  },
+  {
+    "id": 11,
+    "name": "Brokkoli",
+    "typ": "AllYear"
+  },
+  {
+    "id": 12,
+    "name": "Karotten",
+    "typ": "AllYear"
+  },
+  {
+    "id": 13,
+    "name": "Salz",
+    "typ": "Spice"
+  },
+  {
+    "id": 14,
+    "name": "Chili",
+    "typ": "AllYear"
+  },
+  {
+    "id": 15,
+    "name": "Beete",
+    "typ": "AllYear"
+  },
+  {
+    "id": 16,
+    "name": "Weintrauben",
+    "typ": "AllYear"
+  },
+  {
+    "id": 17,
+    "name": "Blutorangen",
+    "typ": "Exotic"
+  },
+  {
+    "id": 18,
+    "name": "Grapefruit",
+    "typ": "Exotic"
+  },
+  {
+    "id": 19,
+    "name": "Erdbeeren",
+    "typ": "Berry"
+  },
+  {
+    "id": 20,
+    "name": "Brombeeren",
+    "typ": "Berry"
+  },
+  {
+    "id": 21,
+    "name": "Cranberries",
+    "typ": "Berry"
+  },
+  {
+    "id": 22,
+    "name": "Fenchel",
+    "typ": "AllYear"
+  },
+  {
+    "id": 23,
+    "name": "Pfeffer",
+    "typ": "AllYear"
+  },
+  {
+    "id": 24,
+    "name": "Rucolasalat",
+    "typ": "AllYear"
+  },
+  {
+    "id": 25,
+    "name": "Wirsing",
+    "typ": "AllYear"
+  },
+  {
+    "id": 26,
+    "name": "Blattspinat",
+    "typ": "AllYear"
+  },
+  {
+    "id": 27,
+    "name": "Zimt",
+    "typ": "Spice"
+  }
+]

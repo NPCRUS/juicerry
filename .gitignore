@@ -7,3 +7,5 @@ target
 .idea
 out
 .bsp
+node_modules
+.vscode

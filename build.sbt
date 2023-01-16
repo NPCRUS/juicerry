@@ -53,7 +53,7 @@ lazy val scrapper = (project in file("scrapper"))
       "dev.zio" %% "zio" % "2.0.5",
       "com.softwaremill.sttp.client3" %% "core" % "3.8.6",
       "com.softwaremill.sttp.client3" %% "zio" % "3.8.6",
-      "net.ruippeixotog" %% "scala-scraper" % "3.0.0"
+      "net.ruippeixotog" %% "scala-scraper" % "3.0.0",
     )
   )
   .dependsOn(commons.jvm)

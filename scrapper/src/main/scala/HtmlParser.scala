@@ -27,29 +27,31 @@ object HtmlParser {
       case None => throw new Exception(s"cannot find blog link for ${document.title}")
   }
 
-  def parseRecipe(htmlText: String): ZIO[Any, Throwable, Recipe] = ZIO.attempt {
-    val document = browser.parseString(htmlText)
+  def parseRecipe(htmlText: String, measureUnits: Seq[String]): ZIO[Any, Throwable, Recipe] =
+    ZIO.attempt {
+      val document = browser.parseString (htmlText)
 
-    val title = (document >> element(".rk_heading")).text
-    val description = (document >> element(".content-blog-detail span")).text
-    val image = (document >> element(".blog-image img")).attr("src")
+      val title = (document >> element (".rk_heading")).text
+      val description = (document >> element (".content-blog-detail span")).text
+      val image = (document >> element (".blog-image img")).attr ("src")
 
-    val ingredients = (document >> elementList(".rk_ingredients li"))
-      .map(_.text)
-      .map(parseIngredient)
+      val ingredients = (document >> elementList (".rk_ingredients li"))
+      .map (_.text)
+      .map(parseIngredient(_, measureUnits))
       .collect {
-        case Some(v) => v
+        case Some (v) => v
       }
 
-    Recipe(title, description, image, ingredients, Seq.empty)
-  }
+      Recipe(title, description, image, ingredients, Seq.empty)
+    }
 
-  private def parseIngredient(text: String): Option[IngredientAmount] =
-    val sections = text.split(" ").toList
+  private def parseIngredient(text: String, measureUnits: Seq[String]): Option[IngredientAmount] =
+    val _isMeasureUnit = isMeasureUnit(measureUnits)
+    val sections = removeDirt(text).split(" ").toList.map(_.trim)
     sections match
       case amount :: ingredient :: Nil if isAmount(amount) =>
         Some(IngredientAmount(Ingredient(0L, ingredient, IngredientType.AllYear), Amount(BigDecimal(amount), None)))
-      case amount :: measureUnit :: rest if isMeasureUnit(measureUnit) && isAmount(amount) =>
+      case amount :: measureUnit :: rest if _isMeasureUnit(measureUnit) && isAmount(amount) =>
         Some(IngredientAmount(Ingredient(0L, rest.mkString(" "), IngredientType.AllYear), Amount(BigDecimal(amount), Some(measureUnit))))
       case amount :: rest if isAmount(amount) =>
         Some(IngredientAmount(Ingredient(0L, rest.mkString(" "), IngredientType.AllYear), Amount(BigDecimal(amount))))
@@ -59,6 +61,10 @@ object HtmlParser {
   private def isAmount(amount: String): Boolean =
     Try(BigDecimal(amount)).isSuccess
 
-  private def isMeasureUnit(str: String): Boolean =
-    List("Stangen", "Hand", "Strunk", "cm", "el", "tl", "g").map(_.toLowerCase).contains(str.toLowerCase)
+  private def isMeasureUnit(units: Seq[String])(str: String): Boolean =
+    units.map(_.toLowerCase).contains(str.toLowerCase)
+
+  private def removeDirt(str: String): String =
+    str.replace("voll ", "")
+      .replace("vom ", "")
 }

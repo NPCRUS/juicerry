@@ -1,3 +1,5 @@
+import json.Encoder
+import models.{Ingredient, Recipe}
 import sttp.client3.httpclient.zio.HttpClientZioBackend
 import zio.*
 import zio.Console.*
@@ -10,6 +12,7 @@ object Main extends ZIOAppDefault {
   private val mainUrl = uri"https://www.nutrilovers.de/pages/slow-juice-saft-rezepte-sammlung"
 
   val appLogic = for {
+    measureUnits <- Utils.loadMeasureUnits
     responseBody <- downloadHtml(mainUrl)
 
     fakeLinks <- HtmlParser.parseMain(responseBody).flatMap(links => ZIO.attempt(links.map(Uri.unsafeParse)))
@@ -28,14 +31,19 @@ object Main extends ZIOAppDefault {
     recipes <- ZIO.collectAllPar {
       trueLinks.map { trueUrl =>
         downloadHtml(trueUrl)
-          .flatMap(HtmlParser.parseRecipe)
+          .flatMap(HtmlParser.parseRecipe(_, measureUnits))
           .logError(trueUrl.toString)
       }
     }
 
-    jsonString <- ZIO.succeed(Encoder.encodeRecipes(recipes))
+    ingredients <- Utils.loadIngredients
+    updatedRecipes <- replaceIngredients(recipes, ingredients)
+
+    jsonString <- ZIO.succeed(Encoder.encodeRecipes(updatedRecipes))
     _ <- ZIO.writeFile("./recipes.json", jsonString)
-    _ <- printLine("file written successfully")
+    
+//    _ <- ZIO.writeFile("./ingredients.json", Encoder.encodeIngredients(ingredients))
+//    _ <- printLine("file written successfully")
   } yield ()
 
   private def downloadHtml(uri: Uri): ZIO[SttpBackend[Task, Any], Throwable, String] =
@@ -45,6 +53,25 @@ object Main extends ZIOAppDefault {
       .map(_.body.left.map(e => new Throwable(e)))
       .absolve
 
+  private def replaceIngredients(recipes: Seq[Recipe], ingredients: Seq[Ingredient]): ZIO[Any, Throwable, Seq[Recipe]] = ZIO.attempt {
+    val existingIngredients = ingredients.map(_.name)
+
+    recipes.map(recipe => recipe.copy(
+      ingredients = recipe.ingredients.map { ia =>
+        val result = Utils.calculateMostSimilar(ia.ingredient.name, existingIngredients)
+        val found = ingredients.find(_.name == result)
+
+        val resultString = found match
+          case Some(value) => s"${value.name}(${value.id})"
+          case None => s"not found $result"
+
+        println(s"${ia.ingredient.name} - $resultString")
+        val preparedIngredient = found.map(_.copy(name = ia.ingredient.name)).getOrElse(ia.ingredient)
+
+        ia.copy(ingredient = preparedIngredient)
+      }
+    ))
+  }
 
   override val run = appLogic.provideLayer(ZLayer(HttpClientZioBackend()))
 }
