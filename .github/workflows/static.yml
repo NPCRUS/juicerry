@@ -42,7 +42,7 @@ jobs:
       - name: Combine artifacts
         run: |
           mkdir static
-          cp frontend/index.html frontend/recipes.json frontend/tailwind.config.js static/
+          cp frontend/index.html frontend/recipes.json frontend/ingredients.json frontend/tailwind.config.js static/
           cp -r frontend/target/scala-3.2.1/frontend-opt/*.js static/
           sed -i 's/target\/scala-3.2.1\/frontend-fastopt\///g' static/index.html
       - name: Upload artifact
