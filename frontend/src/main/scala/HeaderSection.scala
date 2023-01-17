@@ -22,7 +22,7 @@ object HeaderSection {
   private val searchBarNode: Div = div(
     cls("flex flex-row bg-white grow rounded cursor-pointer"),
     onClick --> State.isFilterNodeHiddenUpdater,
-    children <-- State.filters.map(_.map(filterTag))
+    children <-- State.filtersSignal.map(_.map(filterTag))
   )
 
   private def filterTag(ingredient: Ingredient, state: Var[ThreeStateSwitch.State]): Div =

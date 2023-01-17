@@ -1,6 +1,7 @@
 package models
 
 
+import io.circe
 import io.circe.Decoder.Result
 import io.circe.parser.decode
 import io.circe.{Decoder, Encoder, HCursor, Json}
@@ -15,4 +16,7 @@ object JsonSupport {
 
   def decodeRecipes(jsonString: String): Seq[Recipe] =
     decode[Seq[Recipe]](jsonString).fold(_ => Seq.empty, seq => seq)
+
+  def decodeIngredients(str: String): Either[circe.Error, Seq[Ingredient]] =
+    decode[Seq[Ingredient]](str)
 }

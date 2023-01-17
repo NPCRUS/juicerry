@@ -10,7 +10,4 @@ import models.JsonSupport.ingredientTypeDecoder
 object Decoder {
   def decodeMeasureUnits(str: String): Either[circe.Error, Seq[String]] =
     decode[Seq[String]](str)
-
-  def decodeIngredients(str: String): Either[circe.Error, Seq[Ingredient]] =
-  decode[Seq[Ingredient]](str)
 }

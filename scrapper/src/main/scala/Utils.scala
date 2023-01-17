@@ -1,5 +1,5 @@
 import json.Decoder
-import models.Ingredient
+import models.{Ingredient, JsonSupport}
 import zio.ZIO
 
 import sys.process.*
@@ -16,7 +16,7 @@ object Utils {
 
   def loadIngredients: ZIO[Any, IOException, Seq[Ingredient]] =
     ZIO.readFile("./scrapper/ingredients.json")
-      .map(Decoder.decodeIngredients)
+      .map(JsonSupport.decodeIngredients)
       .flatMap {
         case Left(value) => ZIO.die(value)
         case Right(value) => ZIO.succeed(value)
