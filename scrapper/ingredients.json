@@ -55,88 +55,183 @@
     "typ": "AllYear"
   },
   {
-    "id": 11,
+    "id": 12,
     "name": "Brokkoli",
     "typ": "AllYear"
   },
   {
-    "id": 12,
+    "id": 13,
     "name": "Karotten",
     "typ": "AllYear"
   },
   {
-    "id": 13,
+    "id": 14,
     "name": "Salz",
     "typ": "Spice"
   },
   {
-    "id": 14,
-    "name": "Chili",
-    "typ": "AllYear"
-  },
-  {
     "id": 15,
-    "name": "Beete",
-    "typ": "AllYear"
+    "name": "Chili",
+    "typ": "Spice"
   },
   {
     "id": 16,
-    "name": "Weintrauben",
+    "name": "Bete",
     "typ": "AllYear"
   },
   {
     "id": 17,
+    "name": "Weintrauben",
+    "typ": "AllYear"
+  },
+  {
+    "id": 18,
     "name": "Blutorangen",
     "typ": "Exotic"
   },
   {
-    "id": 18,
+    "id": 19,
     "name": "Grapefruit",
     "typ": "Exotic"
   },
   {
-    "id": 19,
+    "id": 20,
     "name": "Erdbeeren",
     "typ": "Berry"
   },
   {
-    "id": 20,
+    "id": 32,
     "name": "Brombeeren",
     "typ": "Berry"
   },
   {
-    "id": 21,
+    "id": 22,
     "name": "Cranberries",
     "typ": "Berry"
   },
   {
-    "id": 22,
+    "id": 23,
     "name": "Fenchel",
     "typ": "AllYear"
   },
   {
-    "id": 23,
+    "id": 24,
     "name": "Pfeffer",
-    "typ": "AllYear"
+    "typ": "Spice"
   },
   {
-    "id": 24,
+    "id": 25,
     "name": "Rucolasalat",
     "typ": "AllYear"
   },
   {
-    "id": 25,
+    "id": 26,
     "name": "Wirsing",
     "typ": "AllYear"
   },
   {
-    "id": 26,
+    "id": 27,
     "name": "Blattspinat",
     "typ": "AllYear"
   },
   {
-    "id": 27,
+    "id": 28,
     "name": "Zimt",
+    "typ": "Spice"
+  },
+  {
+    "id": 29,
+    "name": "Kapuzinerkresse",
+    "typ": "Spice"
+  },
+  {
+    "id": 30,
+    "name": "Basilikum",
+    "typ": "AllYear"
+  },
+  {
+    "id": 31,
+    "name": "Mango",
+    "typ": "Exotic"
+  },
+  {
+    "id": 32,
+    "name": "Kokosmilch",
+    "typ": "Spice"
+  },
+  {
+    "id": 33,
+    "name": "Chinakohl",
+    "typ": "AllYear"
+  },
+  {
+    "id": 34,
+    "name": "Birne",
+    "typ": "AllYear"
+  },
+  {
+    "id": 35,
+    "name": "Minz",
+    "typ": "AllYear"
+  },
+  {
+    "id": 36,
+    "name": "Gurke",
+    "typ": "AllYear"
+  },
+  {
+    "id": 37,
+    "name": "Kardamom",
+    "typ": "Spice"
+  },
+  {
+    "id": 38,
+    "name": "Rosmarin",
+    "typ": "Spice"
+  },
+  {
+    "id": 39,
+    "name": "Wassermelone",
+    "typ": "Exotic"
+  },
+  {
+    "id": 40,
+    "name": "Koriander",
+    "typ": "Spice"
+  },
+  {
+    "id": 41,
+    "name": "Pfirsiche",
+    "typ": "Exotic"
+  },
+  {
+    "id": 42,
+    "name": "Preiselbeeren",
+    "typ": "Berry"
+  },
+  {
+    "id": 43,
+    "name": "Spargel",
+    "typ": "AllYear"
+  },
+  {
+    "id": 44,
+    "name": "Alfalfa",
+    "typ": "Exotic"
+  },
+  {
+    "id": 45,
+    "name": "Alfalfa",
+    "typ": "Exotic"
+  },
+  {
+    "id": 46,
+    "name": "Aprikosen",
+    "typ": "AllYear"
+  },
+  {
+    "id": 47,
+    "name": "Kiwi",
     "typ": "Spice"
   }
 ]

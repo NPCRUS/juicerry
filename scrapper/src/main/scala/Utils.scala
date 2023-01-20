@@ -22,6 +22,9 @@ object Utils {
         case Right(value) => ZIO.succeed(value)
       }
     
-  def calculateMostSimilar(input: String, strings: Seq[String]): String =
-    Process(s"node ./compare.js \"$input\" \"${strings.mkString(",")}\"").lazyLines.head
+  def calculateMostSimilar(input: String, strings: Seq[String]): SimilarityScore =
+    val resultStr = Process(s"node ./compare.js \"$input\" \"${strings.mkString(",")}\"").lazyLines.head
+    resultStr.split(',').toList match
+      case result :: scoreStr :: Nil => SimilarityScore(result, BigDecimal(scoreStr))
+      case str => throw new Exception(s"Wrong similarity calculation result format: $str")
 }

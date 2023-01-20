@@ -103,7 +103,7 @@
       },
       {
         "ingredient" : {
-          "id" : 13,
+          "id" : 14,
           "name" : "Himalaya Salz pink",
           "typ" : "Spice"
         },
@@ -156,7 +156,7 @@
       },
       {
         "ingredient" : {
-          "id" : 11,
+          "id" : 12,
           "name" : "Brokkoli",
           "typ" : "AllYear"
         },
@@ -178,9 +178,9 @@
       },
       {
         "ingredient" : {
-          "id" : 14,
+          "id" : 15,
           "name" : "grüne Chili",
-          "typ" : "AllYear"
+          "typ" : "Spice"
         },
         "amount" : {
           "amount" : 1,
@@ -198,7 +198,7 @@
     "ingredients" : [
       {
         "ingredient" : {
-          "id" : 12,
+          "id" : 13,
           "name" : "Karotten",
           "typ" : "AllYear"
         },
@@ -209,7 +209,7 @@
       },
       {
         "ingredient" : {
-          "id" : 15,
+          "id" : 16,
           "name" : "rote Beete (roh)",
           "typ" : "AllYear"
         },
@@ -231,7 +231,7 @@
       },
       {
         "ingredient" : {
-          "id" : 17,
+          "id" : 18,
           "name" : "Blutorangen",
           "typ" : "Exotic"
         },
@@ -242,7 +242,7 @@
       },
       {
         "ingredient" : {
-          "id" : 18,
+          "id" : 19,
           "name" : "Grapefruit",
           "typ" : "Exotic"
         },
@@ -253,9 +253,9 @@
       },
       {
         "ingredient" : {
-          "id" : 11,
+          "id" : 32,
           "name" : "Tropfen Kokosöl",
-          "typ" : "AllYear"
+          "typ" : "Spice"
         },
         "amount" : {
           "amount" : 4,
@@ -273,7 +273,7 @@
     "ingredients" : [
       {
         "ingredient" : {
-          "id" : 19,
+          "id" : 20,
           "name" : "Erdbeeren",
           "typ" : "Berry"
         },
@@ -284,7 +284,7 @@
       },
       {
         "ingredient" : {
-          "id" : 20,
+          "id" : 32,
           "name" : "Brombeeren",
           "typ" : "Berry"
         },
@@ -295,7 +295,7 @@
       },
       {
         "ingredient" : {
-          "id" : 21,
+          "id" : 22,
           "name" : "Cranberries",
           "typ" : "Berry"
         },
@@ -306,7 +306,7 @@
       },
       {
         "ingredient" : {
-          "id" : 22,
+          "id" : 23,
           "name" : "Bio-Fenchel",
           "typ" : "AllYear"
         },
@@ -328,9 +328,9 @@
       },
       {
         "ingredient" : {
-          "id" : 23,
+          "id" : 24,
           "name" : "Pfeffer schwarz",
-          "typ" : "AllYear"
+          "typ" : "Spice"
         },
         "amount" : {
           "amount" : 1,
@@ -348,7 +348,7 @@
     "ingredients" : [
       {
         "ingredient" : {
-          "id" : 15,
+          "id" : 16,
           "name" : "rote Bete (roh)",
           "typ" : "AllYear"
         },
@@ -359,7 +359,7 @@
       },
       {
         "ingredient" : {
-          "id" : 12,
+          "id" : 13,
           "name" : "Karotten violett",
           "typ" : "AllYear"
         },
@@ -370,7 +370,7 @@
       },
       {
         "ingredient" : {
-          "id" : 17,
+          "id" : 18,
           "name" : "Blutorangen",
           "typ" : "Exotic"
         },
@@ -412,7 +412,7 @@
     "ingredients" : [
       {
         "ingredient" : {
-          "id" : 24,
+          "id" : 25,
           "name" : "Rucolasalat",
           "typ" : "AllYear"
         },
@@ -423,7 +423,7 @@
       },
       {
         "ingredient" : {
-          "id" : 25,
+          "id" : 26,
           "name" : "Wirsing",
           "typ" : "AllYear"
         },
@@ -476,7 +476,7 @@
     "ingredients" : [
       {
         "ingredient" : {
-          "id" : 26,
+          "id" : 27,
           "name" : "Blattspinat",
           "typ" : "AllYear"
         },
@@ -487,7 +487,7 @@
       },
       {
         "ingredient" : {
-          "id" : 12,
+          "id" : 13,
           "name" : "Karotte",
           "typ" : "AllYear"
         },
@@ -498,7 +498,7 @@
       },
       {
         "ingredient" : {
-          "id" : 15,
+          "id" : 16,
           "name" : "rote Bete (roh)",
           "typ" : "AllYear"
         },
@@ -520,9 +520,9 @@
       },
       {
         "ingredient" : {
-          "id" : 26,
+          "id" : 29,
           "name" : "Blatt Kapuzinerkresse",
-          "typ" : "AllYear"
+          "typ" : "Spice"
         },
         "amount" : {
           "amount" : 10,
@@ -531,7 +531,7 @@
       },
       {
         "ingredient" : {
-          "id" : 27,
+          "id" : 28,
           "name" : "Zimt",
           "typ" : "Spice"
         },
@@ -551,7 +551,7 @@
     "ingredients" : [
       {
         "ingredient" : {
-          "id" : 16,
+          "id" : 17,
           "name" : "grüne Weintrauben-Bio",
           "typ" : "AllYear"
         },
@@ -584,7 +584,7 @@
       },
       {
         "ingredient" : {
-          "id" : 12,
+          "id" : 30,
           "name" : "Basilikum - am besten frisch aus dem Garten",
           "typ" : "AllYear"
         },
@@ -604,7 +604,7 @@
     "ingredients" : [
       {
         "ingredient" : {
-          "id" : 12,
+          "id" : 13,
           "name" : "Karotte",
           "typ" : "AllYear"
         },
@@ -615,7 +615,7 @@
       },
       {
         "ingredient" : {
-          "id" : 4,
+          "id" : 31,
           "name" : "kleine Mango fest",
           "typ" : "Exotic"
         },
@@ -626,9 +626,9 @@
       },
       {
         "ingredient" : {
-          "id" : 11,
+          "id" : 32,
           "name" : "Kokosmilch",
-          "typ" : "AllYear"
+          "typ" : "Spice"
         },
         "amount" : {
           "amount" : 4,
@@ -646,7 +646,7 @@
     "ingredients" : [
       {
         "ingredient" : {
-          "id" : 14,
+          "id" : 33,
           "name" : "Chinakohl",
           "typ" : "AllYear"
         },
@@ -679,9 +679,9 @@
       },
       {
         "ingredient" : {
-          "id" : 5,
+          "id" : 34,
           "name" : "Birne grün",
-          "typ" : "Exotic"
+          "typ" : "AllYear"
         },
         "amount" : {
           "amount" : 1,
@@ -690,9 +690,9 @@
       },
       {
         "ingredient" : {
-          "id" : 9,
+          "id" : 35,
           "name" : "Minzblätter",
-          "typ" : "Exotic"
+          "typ" : "AllYear"
         },
         "amount" : {
           "amount" : 1,
@@ -732,7 +732,7 @@
       },
       {
         "ingredient" : {
-          "id" : 1,
+          "id" : 0,
           "name" : "Bio-Möhre gelb",
           "typ" : "AllYear"
         },
@@ -754,9 +754,9 @@
       },
       {
         "ingredient" : {
-          "id" : 23,
+          "id" : 24,
           "name" : "gute Prise Pfeffer schwarz",
-          "typ" : "AllYear"
+          "typ" : "Spice"
         },
         "amount" : {
           "amount" : 1,
@@ -765,9 +765,9 @@
       },
       {
         "ingredient" : {
-          "id" : 11,
+          "id" : 32,
           "name" : "Kokosmilch",
-          "typ" : "AllYear"
+          "typ" : "Spice"
         },
         "amount" : {
           "amount" : 2,
@@ -796,7 +796,7 @@
       },
       {
         "ingredient" : {
-          "id" : 17,
+          "id" : 18,
           "name" : "Blutorange",
           "typ" : "Exotic"
         },
@@ -807,7 +807,7 @@
       },
       {
         "ingredient" : {
-          "id" : 18,
+          "id" : 19,
           "name" : "Grapefruit",
           "typ" : "Exotic"
         },
@@ -829,7 +829,7 @@
       },
       {
         "ingredient" : {
-          "id" : 11,
+          "id" : 36,
           "name" : "Bio-Salatgurke",
           "typ" : "AllYear"
         },
@@ -840,7 +840,7 @@
       },
       {
         "ingredient" : {
-          "id" : 14,
+          "id" : 30,
           "name" : "Bund Basilikum",
           "typ" : "AllYear"
         },
@@ -851,9 +851,9 @@
       },
       {
         "ingredient" : {
-          "id" : 12,
+          "id" : 37,
           "name" : "gute Prise Kardamom gemahlen",
-          "typ" : "AllYear"
+          "typ" : "Spice"
         },
         "amount" : {
           "amount" : 1,
@@ -893,9 +893,9 @@
       },
       {
         "ingredient" : {
-          "id" : 7,
+          "id" : 40,
           "name" : "großer Bund Koriander mit Wurzel",
-          "typ" : "AllYear"
+          "typ" : "Spice"
         },
         "amount" : {
           "amount" : 1,
@@ -915,7 +915,7 @@
       },
       {
         "ingredient" : {
-          "id" : 10,
+          "id" : 0,
           "name" : "grüner Salat nach Wahl",
           "typ" : "AllYear"
         },
@@ -935,9 +935,9 @@
     "ingredients" : [
       {
         "ingredient" : {
-          "id" : 8,
+          "id" : 0,
           "name" : "Maracujas",
-          "typ" : "Exotic"
+          "typ" : "AllYear"
         },
         "amount" : {
           "amount" : 2,
@@ -946,7 +946,7 @@
       },
       {
         "ingredient" : {
-          "id" : 11,
+          "id" : 12,
           "name" : "Bio-Brokkoli Stiele",
           "typ" : "AllYear"
         },
@@ -957,9 +957,9 @@
       },
       {
         "ingredient" : {
-          "id" : 10,
+          "id" : 38,
           "name" : "Bund Rosmarin",
-          "typ" : "AllYear"
+          "typ" : "Spice"
         },
         "amount" : {
           "amount" : 1,
@@ -977,7 +977,7 @@
     "ingredients" : [
       {
         "ingredient" : {
-          "id" : 15,
+          "id" : 0,
           "name" : "große rote Bete roh (ca. 300 Gramm)",
           "typ" : "AllYear"
         },
@@ -988,7 +988,7 @@
       },
       {
         "ingredient" : {
-          "id" : 12,
+          "id" : 13,
           "name" : "Bio-Karotte",
           "typ" : "AllYear"
         },
@@ -1010,9 +1010,9 @@
       },
       {
         "ingredient" : {
-          "id" : 5,
+          "id" : 34,
           "name" : "Bio-Birne",
-          "typ" : "Exotic"
+          "typ" : "AllYear"
         },
         "amount" : {
           "amount" : 1,
@@ -1032,9 +1032,9 @@
       },
       {
         "ingredient" : {
-          "id" : 18,
+          "id" : 29,
           "name" : "Kapuziner Kresse (ca. 100 Gramm)",
-          "typ" : "Exotic"
+          "typ" : "Spice"
         },
         "amount" : {
           "amount" : 1,
@@ -1043,7 +1043,7 @@
       },
       {
         "ingredient" : {
-          "id" : 1,
+          "id" : 0,
           "name" : "Tropfen Hanföl",
           "typ" : "AllYear"
         },
@@ -1063,7 +1063,7 @@
     "ingredients" : [
       {
         "ingredient" : {
-          "id" : 15,
+          "id" : 16,
           "name" : "Bio rote Bete roh",
           "typ" : "AllYear"
         },
@@ -1074,7 +1074,7 @@
       },
       {
         "ingredient" : {
-          "id" : 12,
+          "id" : 13,
           "name" : "Bio-Karotten",
           "typ" : "AllYear"
         },
@@ -1096,7 +1096,7 @@
       },
       {
         "ingredient" : {
-          "id" : 19,
+          "id" : 20,
           "name" : "Erdbeeren frisch oder tiefgefroren",
           "typ" : "Berry"
         },
@@ -1107,7 +1107,7 @@
       },
       {
         "ingredient" : {
-          "id" : 14,
+          "id" : 30,
           "name" : "Bund Bio-Basilikum",
           "typ" : "AllYear"
         },
@@ -1149,9 +1149,9 @@
       },
       {
         "ingredient" : {
-          "id" : 23,
+          "id" : 39,
           "name" : "Wassermelone fest",
-          "typ" : "AllYear"
+          "typ" : "Exotic"
         },
         "amount" : {
           "amount" : 2,
@@ -1160,9 +1160,9 @@
       },
       {
         "ingredient" : {
-          "id" : 21,
+          "id" : 40,
           "name" : "Bund Koriander",
-          "typ" : "Berry"
+          "typ" : "Spice"
         },
         "amount" : {
           "amount" : 2,
@@ -1180,7 +1180,7 @@
     "ingredients" : [
       {
         "ingredient" : {
-          "id" : 26,
+          "id" : 27,
           "name" : "Spinat",
           "typ" : "AllYear"
         },
@@ -1202,9 +1202,9 @@
       },
       {
         "ingredient" : {
-          "id" : 25,
+          "id" : 41,
           "name" : "Bio-Pfirsiche",
-          "typ" : "AllYear"
+          "typ" : "Exotic"
         },
         "amount" : {
           "amount" : 2,
@@ -1244,7 +1244,7 @@
     "ingredients" : [
       {
         "ingredient" : {
-          "id" : 16,
+          "id" : 17,
           "name" : "Bio-Weintrauben blau",
           "typ" : "AllYear"
         },
@@ -1255,7 +1255,7 @@
       },
       {
         "ingredient" : {
-          "id" : 19,
+          "id" : 42,
           "name" : "Preiselbeeren",
           "typ" : "Berry"
         },
@@ -1277,7 +1277,7 @@
       },
       {
         "ingredient" : {
-          "id" : 12,
+          "id" : 13,
           "name" : "Bio-Karotte",
           "typ" : "AllYear"
         },
@@ -1288,9 +1288,9 @@
       },
       {
         "ingredient" : {
-          "id" : 23,
+          "id" : 24,
           "name" : "Bund Bio-Pfefferminze",
-          "typ" : "AllYear"
+          "typ" : "Spice"
         },
         "amount" : {
           "amount" : 1,
@@ -1308,9 +1308,9 @@
     "ingredients" : [
       {
         "ingredient" : {
-          "id" : 14,
+          "id" : 15,
           "name" : "rote Chilischoten",
-          "typ" : "AllYear"
+          "typ" : "Spice"
         },
         "amount" : {
           "amount" : 2,
@@ -1319,7 +1319,7 @@
       },
       {
         "ingredient" : {
-          "id" : 22,
+          "id" : 0,
           "name" : "Bio-Löwenzahn, wenn möglich mit Wurzel",
           "typ" : "AllYear"
         },
@@ -1341,7 +1341,7 @@
       },
       {
         "ingredient" : {
-          "id" : 18,
+          "id" : 19,
           "name" : "pink Grapefruit",
           "typ" : "Exotic"
         },
@@ -1352,9 +1352,9 @@
       },
       {
         "ingredient" : {
-          "id" : 25,
+          "id" : 41,
           "name" : "Pfirsiche",
-          "typ" : "AllYear"
+          "typ" : "Exotic"
         },
         "amount" : {
           "amount" : 3,
@@ -1372,7 +1372,7 @@
     "ingredients" : [
       {
         "ingredient" : {
-          "id" : 11,
+          "id" : 36,
           "name" : "Bio-Salatgurke",
           "typ" : "AllYear"
         },
@@ -1383,9 +1383,9 @@
       },
       {
         "ingredient" : {
-          "id" : 7,
+          "id" : 40,
           "name" : "Bund Bio-Koriander mit Wurzel",
-          "typ" : "AllYear"
+          "typ" : "Spice"
         },
         "amount" : {
           "amount" : 2,
@@ -1425,7 +1425,7 @@
     "ingredients" : [
       {
         "ingredient" : {
-          "id" : 1,
+          "id" : 43,
           "name" : "Bio-Spargel weiß",
           "typ" : "AllYear"
         },
@@ -1436,7 +1436,7 @@
       },
       {
         "ingredient" : {
-          "id" : 1,
+          "id" : 43,
           "name" : "Bio-Spargel grün",
           "typ" : "AllYear"
         },
@@ -1458,7 +1458,7 @@
       },
       {
         "ingredient" : {
-          "id" : 4,
+          "id" : 31,
           "name" : "Mango hart",
           "typ" : "Exotic"
         },
@@ -1469,7 +1469,7 @@
       },
       {
         "ingredient" : {
-          "id" : 14,
+          "id" : 0,
           "name" : "Bund Dill",
           "typ" : "AllYear"
         },
@@ -1489,7 +1489,7 @@
     "ingredients" : [
       {
         "ingredient" : {
-          "id" : 12,
+          "id" : 13,
           "name" : "Bio-Karotten",
           "typ" : "AllYear"
         },
@@ -1500,7 +1500,7 @@
       },
       {
         "ingredient" : {
-          "id" : 15,
+          "id" : 16,
           "name" : "rote Bete roh",
           "typ" : "AllYear"
         },
@@ -1522,7 +1522,7 @@
       },
       {
         "ingredient" : {
-          "id" : 18,
+          "id" : 19,
           "name" : "Grapefruit",
           "typ" : "Exotic"
         },
@@ -1544,9 +1544,9 @@
       },
       {
         "ingredient" : {
-          "id" : 12,
+          "id" : 44,
           "name" : "Alfalfa Sprossen",
-          "typ" : "AllYear"
+          "typ" : "Exotic"
         },
         "amount" : {
           "amount" : 100,
@@ -1555,7 +1555,7 @@
       },
       {
         "ingredient" : {
-          "id" : 14,
+          "id" : 30,
           "name" : "Bund Bio-Basilikum",
           "typ" : "AllYear"
         },
@@ -1575,7 +1575,7 @@
     "ingredients" : [
       {
         "ingredient" : {
-          "id" : 11,
+          "id" : 12,
           "name" : "Brokkoli-Stiele",
           "typ" : "AllYear"
         },
@@ -1586,7 +1586,7 @@
       },
       {
         "ingredient" : {
-          "id" : 11,
+          "id" : 33,
           "name" : "Grünkohl",
           "typ" : "AllYear"
         },
@@ -1630,7 +1630,7 @@
       },
       {
         "ingredient" : {
-          "id" : 14,
+          "id" : 0,
           "name" : "Bund Petersilie",
           "typ" : "AllYear"
         },
@@ -1641,7 +1641,7 @@
       },
       {
         "ingredient" : {
-          "id" : 7,
+          "id" : 0,
           "name" : "Stiele Lavendel",
           "typ" : "AllYear"
         },
@@ -1661,7 +1661,7 @@
     "ingredients" : [
       {
         "ingredient" : {
-          "id" : 4,
+          "id" : 31,
           "name" : "Mangold",
           "typ" : "Exotic"
         },
@@ -1694,9 +1694,9 @@
       },
       {
         "ingredient" : {
-          "id" : 2,
+          "id" : 0,
           "name" : "Löwenzahn",
-          "typ" : "Spice"
+          "typ" : "AllYear"
         },
         "amount" : {
           "amount" : 100,
@@ -1705,9 +1705,9 @@
       },
       {
         "ingredient" : {
-          "id" : 20,
+          "id" : 29,
           "name" : "Brennnessel",
-          "typ" : "Berry"
+          "typ" : "Spice"
         },
         "amount" : {
           "amount" : 100,
@@ -1727,7 +1727,7 @@
       },
       {
         "ingredient" : {
-          "id" : 22,
+          "id" : 0,
           "name" : "gute Prise Schwarzkümmel gemahlen",
           "typ" : "AllYear"
         },
@@ -1747,7 +1747,7 @@
     "ingredients" : [
       {
         "ingredient" : {
-          "id" : 12,
+          "id" : 13,
           "name" : "Karotten",
           "typ" : "AllYear"
         },
@@ -1758,7 +1758,7 @@
       },
       {
         "ingredient" : {
-          "id" : 11,
+          "id" : 12,
           "name" : "Brokkoli Stiel",
           "typ" : "AllYear"
         },
@@ -1769,7 +1769,7 @@
       },
       {
         "ingredient" : {
-          "id" : 1,
+          "id" : 0,
           "name" : "Süßkartoffel",
           "typ" : "AllYear"
         },
@@ -1780,7 +1780,7 @@
       },
       {
         "ingredient" : {
-          "id" : 12,
+          "id" : 46,
           "name" : "Sojasprossen",
           "typ" : "AllYear"
         },
@@ -1813,9 +1813,9 @@
       },
       {
         "ingredient" : {
-          "id" : 5,
+          "id" : 0,
           "name" : "Tropfen Sonnenblumenöl",
-          "typ" : "Exotic"
+          "typ" : "AllYear"
         },
         "amount" : {
           "amount" : 4,
@@ -1833,9 +1833,9 @@
     "ingredients" : [
       {
         "ingredient" : {
-          "id" : 4,
+          "id" : 46,
           "name" : "Aprikosen-Bio",
-          "typ" : "Exotic"
+          "typ" : "AllYear"
         },
         "amount" : {
           "amount" : 2,
@@ -1844,9 +1844,9 @@
       },
       {
         "ingredient" : {
-          "id" : 25,
+          "id" : 41,
           "name" : "Pfirsich-Bio",
-          "typ" : "AllYear"
+          "typ" : "Exotic"
         },
         "amount" : {
           "amount" : 1,
@@ -1855,9 +1855,9 @@
       },
       {
         "ingredient" : {
-          "id" : 1,
+          "id" : 47,
           "name" : "Kiwi",
-          "typ" : "AllYear"
+          "typ" : "Spice"
         },
         "amount" : {
           "amount" : 1,
@@ -1877,7 +1877,7 @@
       },
       {
         "ingredient" : {
-          "id" : 1,
+          "id" : 0,
           "name" : "Sauerampfer",
           "typ" : "AllYear"
         },
@@ -1897,7 +1897,7 @@
     "ingredients" : [
       {
         "ingredient" : {
-          "id" : 19,
+          "id" : 20,
           "name" : "Bio-Erdbeeren",
           "typ" : "Berry"
         },
@@ -1908,7 +1908,7 @@
       },
       {
         "ingredient" : {
-          "id" : 26,
+          "id" : 27,
           "name" : "Spinat",
           "typ" : "AllYear"
         },
@@ -1919,9 +1919,9 @@
       },
       {
         "ingredient" : {
-          "id" : 4,
+          "id" : 0,
           "name" : "Dose Kichererbsen oder 200 Gramm Kichererbsen gekocht",
-          "typ" : "Exotic"
+          "typ" : "AllYear"
         },
         "amount" : {
           "amount" : 1,
@@ -1930,7 +1930,7 @@
       },
       {
         "ingredient" : {
-          "id" : 22,
+          "id" : 0,
           "name" : "Aquafaba - Kichererbsenwasser",
           "typ" : "AllYear"
         },
@@ -1952,9 +1952,9 @@
       },
       {
         "ingredient" : {
-          "id" : 23,
+          "id" : 24,
           "name" : "Bund Pfefferminze",
-          "typ" : "AllYear"
+          "typ" : "Spice"
         },
         "amount" : {
           "amount" : 1,
@@ -1983,7 +1983,7 @@
       },
       {
         "ingredient" : {
-          "id" : 12,
+          "id" : 0,
           "name" : "Bio Rosenblätter frisch",
           "typ" : "AllYear"
         },
@@ -2005,7 +2005,7 @@
       },
       {
         "ingredient" : {
-          "id" : 1,
+          "id" : 43,
           "name" : "Spargel weiß",
           "typ" : "AllYear"
         },
@@ -2016,7 +2016,7 @@
       },
       {
         "ingredient" : {
-          "id" : 1,
+          "id" : 43,
           "name" : "Spargel grün",
           "typ" : "AllYear"
         },
@@ -2047,9 +2047,9 @@
     "ingredients" : [
       {
         "ingredient" : {
-          "id" : 19,
+          "id" : 0,
           "name" : "blaue Erbsenblüten (als Tee erhältlich)",
-          "typ" : "Berry"
+          "typ" : "AllYear"
         },
         "amount" : {
           "amount" : 100,
@@ -2058,7 +2058,7 @@
       },
       {
         "ingredient" : {
-          "id" : 18,
+          "id" : 19,
           "name" : "Grapefruit pink",
           "typ" : "Exotic"
         },
@@ -2069,9 +2069,9 @@
       },
       {
         "ingredient" : {
-          "id" : 5,
+          "id" : 38,
           "name" : "Nektarine-Bio",
-          "typ" : "Exotic"
+          "typ" : "Spice"
         },
         "amount" : {
           "amount" : 1,
@@ -2080,7 +2080,7 @@
       },
       {
         "ingredient" : {
-          "id" : 19,
+          "id" : 20,
           "name" : "Blaubeeren",
           "typ" : "Berry"
         },
@@ -2111,7 +2111,7 @@
     "ingredients" : [
       {
         "ingredient" : {
-          "id" : 15,
+          "id" : 16,
           "name" : "rote Bete roh",
           "typ" : "AllYear"
         },
@@ -2122,7 +2122,7 @@
       },
       {
         "ingredient" : {
-          "id" : 12,
+          "id" : 13,
           "name" : "Bio-Karotten",
           "typ" : "AllYear"
         },
@@ -2133,7 +2133,7 @@
       },
       {
         "ingredient" : {
-          "id" : 4,
+          "id" : 31,
           "name" : "Mangold",
           "typ" : "Exotic"
         },
@@ -2144,7 +2144,7 @@
       },
       {
         "ingredient" : {
-          "id" : 19,
+          "id" : 20,
           "name" : "Blaubeeren",
           "typ" : "Berry"
         },
@@ -2177,9 +2177,9 @@
       },
       {
         "ingredient" : {
-          "id" : 21,
+          "id" : 0,
           "name" : "sehr fein geriebene Sonnenblumenkerne",
-          "typ" : "Berry"
+          "typ" : "AllYear"
         },
         "amount" : {
           "amount" : 2,
@@ -2188,9 +2188,9 @@
       },
       {
         "ingredient" : {
-          "id" : 5,
+          "id" : 0,
           "name" : "Tropfen Sonnenblumenöl",
-          "typ" : "Exotic"
+          "typ" : "AllYear"
         },
         "amount" : {
           "amount" : 2,
@@ -2208,9 +2208,9 @@
     "ingredients" : [
       {
         "ingredient" : {
-          "id" : 22,
+          "id" : 32,
           "name" : "frisches Kokosfleisch",
-          "typ" : "AllYear"
+          "typ" : "Spice"
         },
         "amount" : {
           "amount" : 200,
@@ -2219,9 +2219,9 @@
       },
       {
         "ingredient" : {
-          "id" : 11,
+          "id" : 32,
           "name" : "ml Kokoswasser",
-          "typ" : "AllYear"
+          "typ" : "Spice"
         },
         "amount" : {
           "amount" : 100,
@@ -2241,7 +2241,7 @@
       },
       {
         "ingredient" : {
-          "id" : 26,
+          "id" : 27,
           "name" : "Spinat",
           "typ" : "AllYear"
         },
@@ -2252,9 +2252,9 @@
       },
       {
         "ingredient" : {
-          "id" : 19,
+          "id" : 0,
           "name" : "Erdnussbutter",
-          "typ" : "Berry"
+          "typ" : "AllYear"
         },
         "amount" : {
           "amount" : 2,
@@ -2272,7 +2272,7 @@
     "ingredients" : [
       {
         "ingredient" : {
-          "id" : 19,
+          "id" : 42,
           "name" : "Heidelbeeren",
           "typ" : "Berry"
         },
@@ -2283,7 +2283,7 @@
       },
       {
         "ingredient" : {
-          "id" : 19,
+          "id" : 20,
           "name" : "Erdbeeren",
           "typ" : "Berry"
         },
@@ -2294,7 +2294,7 @@
       },
       {
         "ingredient" : {
-          "id" : 19,
+          "id" : 42,
           "name" : "Stachelbeeren",
           "typ" : "Berry"
         },
@@ -2316,7 +2316,7 @@
       },
       {
         "ingredient" : {
-          "id" : 24,
+          "id" : 25,
           "name" : "Rucola",
           "typ" : "AllYear"
         },
@@ -2338,7 +2338,7 @@
       },
       {
         "ingredient" : {
-          "id" : 16,
+          "id" : 46,
           "name" : "getrocknete, fein geriebene Aprikosenkerne",
           "typ" : "AllYear"
         },
@@ -2358,9 +2358,9 @@
     "ingredients" : [
       {
         "ingredient" : {
-          "id" : 4,
+          "id" : 46,
           "name" : "Aprikosen",
-          "typ" : "Exotic"
+          "typ" : "AllYear"
         },
         "amount" : {
           "amount" : 2,
@@ -2369,7 +2369,7 @@
       },
       {
         "ingredient" : {
-          "id" : 12,
+          "id" : 13,
           "name" : "Karotten-Bio",
           "typ" : "AllYear"
         },
@@ -2380,7 +2380,7 @@
       },
       {
         "ingredient" : {
-          "id" : 1,
+          "id" : 0,
           "name" : "Süßkartoffel roh",
           "typ" : "AllYear"
         },
@@ -2391,7 +2391,7 @@
       },
       {
         "ingredient" : {
-          "id" : 12,
+          "id" : 13,
           "name" : "ml Kamillentee",
           "typ" : "AllYear"
         },
@@ -2411,7 +2411,7 @@
     "ingredients" : [
       {
         "ingredient" : {
-          "id" : 12,
+          "id" : 13,
           "name" : "Karotte-Bio",
           "typ" : "AllYear"
         },
@@ -2422,7 +2422,7 @@
       },
       {
         "ingredient" : {
-          "id" : 11,
+          "id" : 0,
           "name" : "Hokkaido Kürbis",
           "typ" : "AllYear"
         },
@@ -2433,7 +2433,7 @@
       },
       {
         "ingredient" : {
-          "id" : 11,
+          "id" : 12,
           "name" : "Brokkoli Stiele",
           "typ" : "AllYear"
         },
@@ -2444,9 +2444,9 @@
       },
       {
         "ingredient" : {
-          "id" : 4,
+          "id" : 46,
           "name" : "Stück Rosenkohl",
-          "typ" : "Exotic"
+          "typ" : "AllYear"
         },
         "amount" : {
           "amount" : 2,
@@ -2466,7 +2466,7 @@
       },
       {
         "ingredient" : {
-          "id" : 18,
+          "id" : 19,
           "name" : "Grapefruits",
           "typ" : "Exotic"
         },
@@ -2497,9 +2497,9 @@
       },
       {
         "ingredient" : {
-          "id" : 14,
+          "id" : 15,
           "name" : "Chilischoten rot",
-          "typ" : "AllYear"
+          "typ" : "Spice"
         },
         "amount" : {
           "amount" : 2,
@@ -2552,7 +2552,7 @@
       },
       {
         "ingredient" : {
-          "id" : 22,
+          "id" : 0,
           "name" : "Schwarzkümmel gemahlen",
           "typ" : "AllYear"
         },
@@ -2572,7 +2572,7 @@
     "ingredients" : [
       {
         "ingredient" : {
-          "id" : 16,
+          "id" : 0,
           "name" : "Pflaumen",
           "typ" : "AllYear"
         },
@@ -2583,9 +2583,9 @@
       },
       {
         "ingredient" : {
-          "id" : 22,
+          "id" : 41,
           "name" : "Kirschen",
-          "typ" : "AllYear"
+          "typ" : "Exotic"
         },
         "amount" : {
           "amount" : 200,
@@ -2605,7 +2605,7 @@
       },
       {
         "ingredient" : {
-          "id" : 14,
+          "id" : 0,
           "name" : "Pak Choi",
           "typ" : "AllYear"
         },
@@ -2627,9 +2627,9 @@
       },
       {
         "ingredient" : {
-          "id" : 19,
+          "id" : 0,
           "name" : "Matcha Teepulver",
-          "typ" : "Berry"
+          "typ" : "AllYear"
         },
         "amount" : {
           "amount" : 2,
@@ -2647,7 +2647,7 @@
     "ingredients" : [
       {
         "ingredient" : {
-          "id" : 19,
+          "id" : 20,
           "name" : "Erdbeeren",
           "typ" : "Berry"
         },
@@ -2658,7 +2658,7 @@
       },
       {
         "ingredient" : {
-          "id" : 19,
+          "id" : 20,
           "name" : "Blaubeeren",
           "typ" : "Berry"
         },
@@ -2669,7 +2669,7 @@
       },
       {
         "ingredient" : {
-          "id" : 19,
+          "id" : 42,
           "name" : "Preiselbeeren",
           "typ" : "Berry"
         },
@@ -2702,9 +2702,9 @@
       },
       {
         "ingredient" : {
-          "id" : 20,
+          "id" : 0,
           "name" : "Brombeerblätter (Altern. 200-250ml Brombeerblätter-Tee)",
-          "typ" : "Berry"
+          "typ" : "AllYear"
         },
         "amount" : {
           "amount" : 1,
@@ -2713,9 +2713,9 @@
       },
       {
         "ingredient" : {
-          "id" : 23,
+          "id" : 24,
           "name" : "Cayennepfeffer",
-          "typ" : "AllYear"
+          "typ" : "Spice"
         },
         "amount" : {
           "amount" : 1,
@@ -2733,7 +2733,7 @@
     "ingredients" : [
       {
         "ingredient" : {
-          "id" : 4,
+          "id" : 31,
           "name" : "Mangold",
           "typ" : "Exotic"
         },
@@ -2755,9 +2755,9 @@
       },
       {
         "ingredient" : {
-          "id" : 19,
+          "id" : 29,
           "name" : "Kresse",
-          "typ" : "Berry"
+          "typ" : "Spice"
         },
         "amount" : {
           "amount" : 1,
@@ -2788,9 +2788,9 @@
       },
       {
         "ingredient" : {
-          "id" : 25,
+          "id" : 41,
           "name" : "Pfirsich",
-          "typ" : "AllYear"
+          "typ" : "Exotic"
         },
         "amount" : {
           "amount" : 1,
@@ -2799,9 +2799,9 @@
       },
       {
         "ingredient" : {
-          "id" : 23,
+          "id" : 24,
           "name" : "Pfeffer gemahlen",
-          "typ" : "AllYear"
+          "typ" : "Spice"
         },
         "amount" : {
           "amount" : 1,
@@ -2819,7 +2819,7 @@
     "ingredients" : [
       {
         "ingredient" : {
-          "id" : 19,
+          "id" : 20,
           "name" : "Meerrettich",
           "typ" : "Berry"
         },
@@ -2852,9 +2852,9 @@
       },
       {
         "ingredient" : {
-          "id" : 4,
+          "id" : 34,
           "name" : "Bio-Birnen",
-          "typ" : "Exotic"
+          "typ" : "AllYear"
         },
         "amount" : {
           "amount" : 2,
@@ -2883,7 +2883,7 @@
       },
       {
         "ingredient" : {
-          "id" : 12,
+          "id" : 13,
           "name" : "Bio-Karotte",
           "typ" : "AllYear"
         },
@@ -2905,9 +2905,9 @@
       },
       {
         "ingredient" : {
-          "id" : 20,
+          "id" : 0,
           "name" : "Bio-Apfel am besten Granny Smith oder eine andere säuerliche Sorte",
-          "typ" : "Berry"
+          "typ" : "AllYear"
         },
         "amount" : {
           "amount" : 1,
@@ -2927,7 +2927,7 @@
       },
       {
         "ingredient" : {
-          "id" : 1,
+          "id" : 0,
           "name" : "Sauerampfer",
           "typ" : "AllYear"
         },
@@ -2938,7 +2938,7 @@
       },
       {
         "ingredient" : {
-          "id" : 12,
+          "id" : 46,
           "name" : "Sojasprossen",
           "typ" : "AllYear"
         },
@@ -2949,7 +2949,7 @@
       },
       {
         "ingredient" : {
-          "id" : 21,
+          "id" : 22,
           "name" : "Muskat gerieben",
           "typ" : "Berry"
         },
@@ -2960,7 +2960,7 @@
       },
       {
         "ingredient" : {
-          "id" : 1,
+          "id" : 0,
           "name" : "Tropfen Hanföl",
           "typ" : "AllYear"
         },
@@ -2980,7 +2980,7 @@
     "ingredients" : [
       {
         "ingredient" : {
-          "id" : 6,
+          "id" : 0,
           "name" : "weiße Bio-Champignons",
           "typ" : "AllYear"
         },
@@ -2991,7 +2991,7 @@
       },
       {
         "ingredient" : {
-          "id" : 15,
+          "id" : 16,
           "name" : "rote Bete roh",
           "typ" : "AllYear"
         },
@@ -3002,7 +3002,7 @@
       },
       {
         "ingredient" : {
-          "id" : 11,
+          "id" : 12,
           "name" : "Brokkoli-Sprossen",
           "typ" : "AllYear"
         },
@@ -3035,9 +3035,9 @@
       },
       {
         "ingredient" : {
-          "id" : 23,
+          "id" : 24,
           "name" : "Cayenne Pfeffer",
-          "typ" : "AllYear"
+          "typ" : "Spice"
         },
         "amount" : {
           "amount" : 1,
@@ -3055,7 +3055,7 @@
     "ingredients" : [
       {
         "ingredient" : {
-          "id" : 11,
+          "id" : 33,
           "name" : "Grünkohl",
           "typ" : "AllYear"
         },
@@ -3066,7 +3066,7 @@
       },
       {
         "ingredient" : {
-          "id" : 11,
+          "id" : 0,
           "name" : "Hokkaido Kürbis",
           "typ" : "AllYear"
         },
@@ -3077,7 +3077,7 @@
       },
       {
         "ingredient" : {
-          "id" : 12,
+          "id" : 0,
           "name" : "Avocado (hart)",
           "typ" : "AllYear"
         },
@@ -3099,9 +3099,9 @@
       },
       {
         "ingredient" : {
-          "id" : 19,
+          "id" : 0,
           "name" : "ml grüner Tee",
-          "typ" : "Berry"
+          "typ" : "AllYear"
         },
         "amount" : {
           "amount" : 250,
@@ -3119,7 +3119,7 @@
     "ingredients" : [
       {
         "ingredient" : {
-          "id" : 11,
+          "id" : 33,
           "name" : "Grünkohl",
           "typ" : "AllYear"
         },
@@ -3130,7 +3130,7 @@
       },
       {
         "ingredient" : {
-          "id" : 11,
+          "id" : 12,
           "name" : "Stiele Brokkoli",
           "typ" : "AllYear"
         },
@@ -3152,9 +3152,9 @@
       },
       {
         "ingredient" : {
-          "id" : 4,
+          "id" : 46,
           "name" : "Aprikosen",
-          "typ" : "Exotic"
+          "typ" : "AllYear"
         },
         "amount" : {
           "amount" : 2,
@@ -3174,7 +3174,7 @@
       },
       {
         "ingredient" : {
-          "id" : 23,
+          "id" : 0,
           "name" : "Instant Kaffeepulver",
           "typ" : "AllYear"
         },
@@ -3185,9 +3185,9 @@
       },
       {
         "ingredient" : {
-          "id" : 11,
+          "id" : 32,
           "name" : "ml Kokosmilch",
-          "typ" : "AllYear"
+          "typ" : "Spice"
         },
         "amount" : {
           "amount" : 100,
@@ -3205,7 +3205,7 @@
     "ingredients" : [
       {
         "ingredient" : {
-          "id" : 20,
+          "id" : 32,
           "name" : "Himbeeren",
           "typ" : "Berry"
         },
@@ -3216,7 +3216,7 @@
       },
       {
         "ingredient" : {
-          "id" : 20,
+          "id" : 32,
           "name" : "Brombeeren",
           "typ" : "Berry"
         },
@@ -3227,7 +3227,7 @@
       },
       {
         "ingredient" : {
-          "id" : 19,
+          "id" : 20,
           "name" : "Erdbeeren",
           "typ" : "Berry"
         },
@@ -3238,7 +3238,7 @@
       },
       {
         "ingredient" : {
-          "id" : 19,
+          "id" : 20,
           "name" : "Blaubeeren",
           "typ" : "Berry"
         },
@@ -3249,7 +3249,7 @@
       },
       {
         "ingredient" : {
-          "id" : 24,
+          "id" : 25,
           "name" : "Rucola",
           "typ" : "AllYear"
         },
@@ -3260,7 +3260,7 @@
       },
       {
         "ingredient" : {
-          "id" : 4,
+          "id" : 31,
           "name" : "Mangold",
           "typ" : "Exotic"
         },
@@ -3271,9 +3271,9 @@
       },
       {
         "ingredient" : {
-          "id" : 14,
+          "id" : 15,
           "name" : "rote Chili scharf",
-          "typ" : "AllYear"
+          "typ" : "Spice"
         },
         "amount" : {
           "amount" : 2,
@@ -3302,7 +3302,7 @@
       },
       {
         "ingredient" : {
-          "id" : 1,
+          "id" : 43,
           "name" : "Spargel grün",
           "typ" : "AllYear"
         },
@@ -3324,9 +3324,9 @@
       },
       {
         "ingredient" : {
-          "id" : 4,
+          "id" : 34,
           "name" : "Bio-Birnen",
-          "typ" : "Exotic"
+          "typ" : "AllYear"
         },
         "amount" : {
           "amount" : 2,
@@ -3335,9 +3335,9 @@
       },
       {
         "ingredient" : {
-          "id" : 19,
+          "id" : 0,
           "name" : "Erdnussbutter",
-          "typ" : "Berry"
+          "typ" : "AllYear"
         },
         "amount" : {
           "amount" : 2,
@@ -3355,7 +3355,7 @@
     "ingredients" : [
       {
         "ingredient" : {
-          "id" : 15,
+          "id" : 16,
           "name" : "rote Bete (roh)",
           "typ" : "AllYear"
         },
@@ -3366,7 +3366,7 @@
       },
       {
         "ingredient" : {
-          "id" : 16,
+          "id" : 17,
           "name" : "Trauben",
           "typ" : "AllYear"
         },
@@ -3388,7 +3388,7 @@
       },
       {
         "ingredient" : {
-          "id" : 16,
+          "id" : 17,
           "name" : "Seidentofu",
           "typ" : "AllYear"
         },
@@ -3399,8 +3399,19 @@
       },
       {
         "ingredient" : {
-          "id" : 8,
+          "id" : 0,
           "name" : "Cashewnüsse",
+          "typ" : "AllYear"
+        },
+        "amount" : {
+          "amount" : 20,
+          "measureUnit" : "g"
+        }
+      },
+      {
+        "ingredient" : {
+          "id" : 39,
+          "name" : "Walnüsse",
           "typ" : "Exotic"
         },
         "amount" : {
@@ -3410,18 +3421,7 @@
       },
       {
         "ingredient" : {
-          "id" : 13,
-          "name" : "Walnüsse",
-          "typ" : "Spice"
-        },
-        "amount" : {
-          "amount" : 20,
-          "measureUnit" : "g"
-        }
-      },
-      {
-        "ingredient" : {
-          "id" : 12,
+          "id" : 0,
           "name" : "Trockenfrüchte gemischt",
           "typ" : "AllYear"
         },
@@ -3432,9 +3432,9 @@
       },
       {
         "ingredient" : {
-          "id" : 2,
+          "id" : 39,
           "name" : "ml Wasser",
-          "typ" : "Spice"
+          "typ" : "Exotic"
         },
         "amount" : {
           "amount" : 50,
@@ -3452,7 +3452,7 @@
     "ingredients" : [
       {
         "ingredient" : {
-          "id" : 12,
+          "id" : 0,
           "name" : "Avocados (hart)",
           "typ" : "AllYear"
         },
@@ -3463,7 +3463,7 @@
       },
       {
         "ingredient" : {
-          "id" : 26,
+          "id" : 27,
           "name" : "Blattspinat",
           "typ" : "AllYear"
         },
@@ -3474,9 +3474,9 @@
       },
       {
         "ingredient" : {
-          "id" : 12,
+          "id" : 38,
           "name" : "Nektarinen",
-          "typ" : "AllYear"
+          "typ" : "Spice"
         },
         "amount" : {
           "amount" : 2,
@@ -3507,7 +3507,7 @@
       },
       {
         "ingredient" : {
-          "id" : 12,
+          "id" : 0,
           "name" : "Bitterschokolade mit mindestens 85% Kakaoanteil",
           "typ" : "AllYear"
         },
@@ -3527,7 +3527,7 @@
     "ingredients" : [
       {
         "ingredient" : {
-          "id" : 10,
+          "id" : 0,
           "name" : "Bio-Tomaten",
           "typ" : "AllYear"
         },
@@ -3538,9 +3538,9 @@
       },
       {
         "ingredient" : {
-          "id" : 4,
+          "id" : 0,
           "name" : "Bund Oregano",
-          "typ" : "Exotic"
+          "typ" : "AllYear"
         },
         "amount" : {
           "amount" : 1,
@@ -3549,9 +3549,9 @@
       },
       {
         "ingredient" : {
-          "id" : 14,
+          "id" : 15,
           "name" : "Chili rot",
-          "typ" : "AllYear"
+          "typ" : "Spice"
         },
         "amount" : {
           "amount" : 1,
@@ -3582,7 +3582,7 @@
       },
       {
         "ingredient" : {
-          "id" : 25,
+          "id" : 0,
           "name" : "ml Trink-Kefir",
           "typ" : "AllYear"
         },
@@ -3602,9 +3602,9 @@
     "ingredients" : [
       {
         "ingredient" : {
-          "id" : 19,
+          "id" : 39,
           "name" : "Wassermelone, nicht überreif",
-          "typ" : "Berry"
+          "typ" : "Exotic"
         },
         "amount" : {
           "amount" : 200,
@@ -3635,7 +3635,7 @@
       },
       {
         "ingredient" : {
-          "id" : 11,
+          "id" : 12,
           "name" : "Stiele Brokkoli",
           "typ" : "AllYear"
         },
@@ -3657,9 +3657,9 @@
       },
       {
         "ingredient" : {
-          "id" : 23,
+          "id" : 24,
           "name" : "Cayenne Pfeffer",
-          "typ" : "AllYear"
+          "typ" : "Spice"
         },
         "amount" : {
           "amount" : 1,
@@ -3668,9 +3668,9 @@
       },
       {
         "ingredient" : {
-          "id" : 17,
+          "id" : 0,
           "name" : "Kichererbsen, gekocht oder aus der Dose",
-          "typ" : "Exotic"
+          "typ" : "AllYear"
         },
         "amount" : {
           "amount" : 50,
@@ -3679,7 +3679,7 @@
       },
       {
         "ingredient" : {
-          "id" : 6,
+          "id" : 0,
           "name" : "ml Oolong Tee",
           "typ" : "AllYear"
         },
@@ -3699,7 +3699,7 @@
     "ingredients" : [
       {
         "ingredient" : {
-          "id" : 10,
+          "id" : 0,
           "name" : "feste Bio-Tomaten",
           "typ" : "AllYear"
         },
@@ -3721,9 +3721,9 @@
       },
       {
         "ingredient" : {
-          "id" : 22,
+          "id" : 41,
           "name" : "Kirschen",
-          "typ" : "AllYear"
+          "typ" : "Exotic"
         },
         "amount" : {
           "amount" : 200,
@@ -3743,9 +3743,9 @@
       },
       {
         "ingredient" : {
-          "id" : 19,
+          "id" : 0,
           "name" : "ml grüner Tee",
-          "typ" : "Berry"
+          "typ" : "AllYear"
         },
         "amount" : {
           "amount" : 250,
@@ -3754,9 +3754,9 @@
       },
       {
         "ingredient" : {
-          "id" : 2,
+          "id" : 0,
           "name" : "Magerquark",
-          "typ" : "Spice"
+          "typ" : "AllYear"
         },
         "amount" : {
           "amount" : 2,
@@ -3774,7 +3774,7 @@
     "ingredients" : [
       {
         "ingredient" : {
-          "id" : 20,
+          "id" : 32,
           "name" : "Himbeeren",
           "typ" : "Berry"
         },
@@ -3785,7 +3785,7 @@
       },
       {
         "ingredient" : {
-          "id" : 5,
+          "id" : 39,
           "name" : "Wassermelonen",
           "typ" : "Exotic"
         },
@@ -3807,7 +3807,7 @@
       },
       {
         "ingredient" : {
-          "id" : 23,
+          "id" : 0,
           "name" : "Haferflocken",
           "typ" : "AllYear"
         },
@@ -3838,7 +3838,7 @@
     "ingredients" : [
       {
         "ingredient" : {
-          "id" : 18,
+          "id" : 19,
           "name" : "Grapefruit",
           "typ" : "Exotic"
         },
@@ -3860,7 +3860,7 @@
       },
       {
         "ingredient" : {
-          "id" : 15,
+          "id" : 0,
           "name" : "ml Matcha Tee",
           "typ" : "AllYear"
         },
@@ -3891,7 +3891,7 @@
       },
       {
         "ingredient" : {
-          "id" : 16,
+          "id" : 0,
           "name" : "kleine Pak Choi",
           "typ" : "AllYear"
         },
@@ -3913,9 +3913,9 @@
       },
       {
         "ingredient" : {
-          "id" : 11,
+          "id" : 32,
           "name" : "ml Kokoswasser",
-          "typ" : "AllYear"
+          "typ" : "Spice"
         },
         "amount" : {
           "amount" : 200,
@@ -3924,9 +3924,9 @@
       },
       {
         "ingredient" : {
-          "id" : 11,
+          "id" : 32,
           "name" : "Kokosmilch",
-          "typ" : "AllYear"
+          "typ" : "Spice"
         },
         "amount" : {
           "amount" : 2,
@@ -3935,7 +3935,7 @@
       },
       {
         "ingredient" : {
-          "id" : 12,
+          "id" : 0,
           "name" : "Whey Proteinpulver",
           "typ" : "AllYear"
         },
@@ -3955,7 +3955,7 @@
     "ingredients" : [
       {
         "ingredient" : {
-          "id" : 20,
+          "id" : 32,
           "name" : "Brombeeren",
           "typ" : "Berry"
         },
@@ -3966,7 +3966,7 @@
       },
       {
         "ingredient" : {
-          "id" : 19,
+          "id" : 20,
           "name" : "Erdbeeren",
           "typ" : "Berry"
         },
@@ -3977,7 +3977,7 @@
       },
       {
         "ingredient" : {
-          "id" : 20,
+          "id" : 32,
           "name" : "Himbeeren",
           "typ" : "Berry"
         },
@@ -3988,7 +3988,7 @@
       },
       {
         "ingredient" : {
-          "id" : 19,
+          "id" : 42,
           "name" : "Stachelbeeren",
           "typ" : "Berry"
         },
@@ -4041,7 +4041,7 @@
     "ingredients" : [
       {
         "ingredient" : {
-          "id" : 26,
+          "id" : 27,
           "name" : "Blattspinat",
           "typ" : "AllYear"
         },
@@ -4052,7 +4052,7 @@
       },
       {
         "ingredient" : {
-          "id" : 11,
+          "id" : 12,
           "name" : "Brokkoli Stiele",
           "typ" : "AllYear"
         },
@@ -4074,9 +4074,9 @@
       },
       {
         "ingredient" : {
-          "id" : 1,
+          "id" : 47,
           "name" : "Kiwis",
-          "typ" : "AllYear"
+          "typ" : "Spice"
         },
         "amount" : {
           "amount" : 4,
@@ -4085,7 +4085,7 @@
       },
       {
         "ingredient" : {
-          "id" : 25,
+          "id" : 34,
           "name" : "Ahornsirup",
           "typ" : "AllYear"
         },
@@ -4105,7 +4105,7 @@
     "ingredients" : [
       {
         "ingredient" : {
-          "id" : 12,
+          "id" : 13,
           "name" : "Karotten",
           "typ" : "AllYear"
         },
@@ -4149,9 +4149,9 @@
       },
       {
         "ingredient" : {
-          "id" : 11,
+          "id" : 32,
           "name" : "ml Kokosmilch",
-          "typ" : "AllYear"
+          "typ" : "Spice"
         },
         "amount" : {
           "amount" : 200,
@@ -4160,7 +4160,7 @@
       },
       {
         "ingredient" : {
-          "id" : 12,
+          "id" : 0,
           "name" : "Kakao",
           "typ" : "AllYear"
         },
@@ -4171,9 +4171,9 @@
       },
       {
         "ingredient" : {
-          "id" : 11,
+          "id" : 32,
           "name" : "Kokosraspeln",
-          "typ" : "AllYear"
+          "typ" : "Spice"
         },
         "amount" : {
           "amount" : 1,
@@ -4191,7 +4191,7 @@
     "ingredients" : [
       {
         "ingredient" : {
-          "id" : 22,
+          "id" : 0,
           "name" : "Bio-Radieschen mit Grün",
           "typ" : "AllYear"
         },
@@ -4213,7 +4213,7 @@
       },
       {
         "ingredient" : {
-          "id" : 5,
+          "id" : 39,
           "name" : "Wassermelone",
           "typ" : "Exotic"
         },
@@ -4235,7 +4235,7 @@
       },
       {
         "ingredient" : {
-          "id" : 5,
+          "id" : 39,
           "name" : "Galia Melone",
           "typ" : "Exotic"
         },
@@ -4255,7 +4255,7 @@
     "ingredients" : [
       {
         "ingredient" : {
-          "id" : 16,
+          "id" : 17,
           "name" : "Trauben blau",
           "typ" : "AllYear"
         },
@@ -4266,7 +4266,7 @@
       },
       {
         "ingredient" : {
-          "id" : 16,
+          "id" : 17,
           "name" : "Trauben weiß",
           "typ" : "AllYear"
         },
@@ -4299,7 +4299,7 @@
       },
       {
         "ingredient" : {
-          "id" : 24,
+          "id" : 25,
           "name" : "Rucola Salat",
           "typ" : "AllYear"
         },
@@ -4370,9 +4370,9 @@
     "ingredients" : [
       {
         "ingredient" : {
-          "id" : 5,
+          "id" : 34,
           "name" : "St. Birne",
-          "typ" : "Exotic"
+          "typ" : "AllYear"
         },
         "amount" : {
           "amount" : 3,
@@ -4412,7 +4412,7 @@
     "ingredients" : [
       {
         "ingredient" : {
-          "id" : 12,
+          "id" : 13,
           "name" : "St. Karotte",
           "typ" : "AllYear"
         },
@@ -4434,9 +4434,9 @@
       },
       {
         "ingredient" : {
-          "id" : 9,
+          "id" : 0,
           "name" : "St. Grünkohl Blätter",
-          "typ" : "Exotic"
+          "typ" : "AllYear"
         },
         "amount" : {
           "amount" : 3,
@@ -4465,7 +4465,7 @@
       },
       {
         "ingredient" : {
-          "id" : 12,
+          "id" : 13,
           "name" : "St. Karotte",
           "typ" : "AllYear"
         },
@@ -4558,9 +4558,9 @@
       },
       {
         "ingredient" : {
-          "id" : 4,
+          "id" : 34,
           "name" : "Birnen,🍐🍐",
-          "typ" : "Exotic"
+          "typ" : "AllYear"
         },
         "amount" : {
           "amount" : 2,
@@ -4569,9 +4569,9 @@
       },
       {
         "ingredient" : {
-          "id" : 19,
+          "id" : 0,
           "name" : "Möhren🥕🥕",
-          "typ" : "Berry"
+          "typ" : "AllYear"
         },
         "amount" : {
           "amount" : 2,
@@ -4580,7 +4580,7 @@
       },
       {
         "ingredient" : {
-          "id" : 15,
+          "id" : 16,
           "name" : "rote Beete",
           "typ" : "AllYear"
         },
@@ -4667,7 +4667,7 @@
     "ingredients" : [
       {
         "ingredient" : {
-          "id" : 15,
+          "id" : 13,
           "name" : "Knollen rote Beete",
           "typ" : "AllYear"
         },
@@ -4700,9 +4700,9 @@
       },
       {
         "ingredient" : {
-          "id" : 11,
+          "id" : 32,
           "name" : "ml Kokosmilch",
-          "typ" : "AllYear"
+          "typ" : "Spice"
         },
         "amount" : {
           "amount" : 30,
@@ -4722,7 +4722,7 @@
       },
       {
         "ingredient" : {
-          "id" : 16,
+          "id" : 0,
           "name" : "Leinöl",
           "typ" : "AllYear"
         },
@@ -4742,7 +4742,7 @@
     "ingredients" : [
       {
         "ingredient" : {
-          "id" : 11,
+          "id" : 0,
           "name" : "große HandGrünkohl 🥬",
           "typ" : "AllYear"
         },
@@ -4815,7 +4815,7 @@
     "ingredients" : [
       {
         "ingredient" : {
-          "id" : 15,
+          "id" : 16,
           "name" : "gr rote Bete",
           "typ" : "AllYear"
         },
@@ -4899,9 +4899,9 @@
       },
       {
         "ingredient" : {
-          "id" : 4,
+          "id" : 0,
           "name" : "Mandarinen🍊🍊",
-          "typ" : "Exotic"
+          "typ" : "AllYear"
         },
         "amount" : {
           "amount" : 2,
@@ -4921,9 +4921,9 @@
       },
       {
         "ingredient" : {
-          "id" : 19,
+          "id" : 0,
           "name" : "Möhren 🥕🥕",
-          "typ" : "Berry"
+          "typ" : "AllYear"
         },
         "amount" : {
           "amount" : 2,
@@ -4952,9 +4952,9 @@
     "ingredients" : [
       {
         "ingredient" : {
-          "id" : 19,
+          "id" : 0,
           "name" : "einer fruchtigen Obstsorte, z.b. Erdbeeren oder Ananas",
-          "typ" : "Berry"
+          "typ" : "AllYear"
         },
         "amount" : {
           "amount" : 300,
@@ -4963,7 +4963,7 @@
       },
       {
         "ingredient" : {
-          "id" : 22,
+          "id" : 0,
           "name" : "Päckchen Agar Agar* 🛒",
           "typ" : "AllYear"
         },
@@ -4974,9 +4974,9 @@
       },
       {
         "ingredient" : {
-          "id" : 4,
+          "id" : 0,
           "name" : "Agavendicksaft* 🛒",
-          "typ" : "Exotic"
+          "typ" : "AllYear"
         },
         "amount" : {
           "amount" : 2,
@@ -5003,7 +5003,7 @@
     "ingredients" : [
       {
         "ingredient" : {
-          "id" : 12,
+          "id" : 0,
           "name" : "rohe Kartoffeln",
           "typ" : "AllYear"
         },
@@ -5032,7 +5032,7 @@
     "ingredients" : [
       {
         "ingredient" : {
-          "id" : 6,
+          "id" : 0,
           "name" : "Honig/ Agavendicksaft (optional)",
           "typ" : "AllYear"
         },
@@ -5052,7 +5052,7 @@
     "ingredients" : [
       {
         "ingredient" : {
-          "id" : 15,
+          "id" : 16,
           "name" : "kleine Bete",
           "typ" : "AllYear"
         },
@@ -5074,9 +5074,9 @@
       },
       {
         "ingredient" : {
-          "id" : 2,
+          "id" : 0,
           "name" : "Puderzucker",
-          "typ" : "Spice"
+          "typ" : "AllYear"
         },
         "amount" : {
           "amount" : 200,
@@ -5125,7 +5125,7 @@
     "ingredients" : [
       {
         "ingredient" : {
-          "id" : 12,
+          "id" : 13,
           "name" : "Karotten 🥕",
           "typ" : "AllYear"
         },
@@ -5169,7 +5169,7 @@
       },
       {
         "ingredient" : {
-          "id" : 15,
+          "id" : 16,
           "name" : "Rote Beete",
           "typ" : "AllYear"
         },

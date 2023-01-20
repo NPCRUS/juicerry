@@ -58,17 +58,23 @@ object Main extends ZIOAppDefault {
 
     recipes.map(recipe => recipe.copy(
       ingredients = recipe.ingredients.map { ia =>
-        val result = Utils.calculateMostSimilar(ia.ingredient.name, existingIngredients)
-        val found = ingredients.find(_.name == result)
+        val similarityScore = Utils.calculateMostSimilar(ia.ingredient.name, existingIngredients)
+        val found = ingredients.find(_.name == similarityScore.result).get
+        val valid = similarityScore.score.compare(0.3) > 0
 
-        val resultString = found match
-          case Some(value) => s"${value.name}(${value.id})"
-          case None => s"not found $result"
+        val resultString = if (valid) {
+          s"${found.name}(${found.id})"
+        } else {
+          s"not found ${similarityScore.result}"
+        }
 
-        println(s"${ia.ingredient.name} - $resultString")
-        val preparedIngredient = found.map(_.copy(name = ia.ingredient.name)).getOrElse(ia.ingredient)
+        println(s"${ia.ingredient.name} - $resultString (score: ${similarityScore.score})")
+        val preparedIngredient = found.copy(name = ia.ingredient.name)
 
-        ia.copy(ingredient = preparedIngredient)
+        if(valid)
+          ia.copy(ingredient = preparedIngredient)
+        else
+          ia
       }
     ))
   }
