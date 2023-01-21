@@ -2,7 +2,9 @@ import com.raquo.airstream.web.AjaxEventStream
 import com.raquo.laminar.api.L.*
 import components.ThreeStateSwitch
 import models.{Ingredient, JsonSupport, Recipe}
-import org.scalajs.dom.{EventSource, MouseEvent}
+import org.scalajs.dom.{EventSource, MouseEvent, document}
+
+import scala.scalajs.js
 
 object State {
 
@@ -10,6 +12,15 @@ object State {
   val isFilterNodeHiddenUpdater: Observer[MouseEvent] = State.isFilterNodeHidden.updater[MouseEvent]((v, _) => !v)
 
   val (onSearchStream, onSearchClick) = EventStream.withObserver[MouseEvent]
+
+  val onCopyClick: Observer[Recipe] = Observer[Recipe].apply(recipe => {
+    val sep = "\\n"
+    val recipeStr = recipe.ingredients
+      .map(ia => s"${ia.ingredient.name} x ${ia.amount.amount.toString()} ${ia.amount.measureUnit.getOrElse("")}$sep")
+      .foldLeft(s"${recipe.title}$sep")(_.concat(_))
+    println()
+    js.eval(s"navigator.clipboard.writeText('$recipeStr')")
+  })
 
   private val recipesSignal: Signal[Seq[Recipe]] = AjaxEventStream.get(
     url = "./recipes.json"

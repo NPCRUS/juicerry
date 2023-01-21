@@ -47,6 +47,11 @@ object RecipesSection {
       ),
       div(
         cls("flex justify-end"),
+        span(
+          cls("material-symbols-outlined cursor-pointer"),
+          onClick --> State.onCopyClick.contramap(_ => recipe),
+          "content_copy"
+        ),
         label("bg-gray-200")("Votes: 15")
       )
   ),
