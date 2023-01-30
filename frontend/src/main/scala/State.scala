@@ -3,6 +3,7 @@ import com.raquo.laminar.api.L.*
 import components.ThreeStateSwitch
 import models.{Ingredient, JsonSupport, Recipe}
 import org.scalajs.dom.{EventSource, MouseEvent, document}
+import utils.LocalStorage
 
 import scala.scalajs.js
 
@@ -13,6 +14,7 @@ object State {
 
   val (onSearchStream, onSearchClick) = EventStream.withObserver[MouseEvent]
 
+  // TODO: declare scalajs interface instead of using eval
   val onCopyClick: Observer[Recipe] = Observer[Recipe].apply(recipe => {
     val sep = "\\n"
     val recipeStr = recipe.ingredients
@@ -33,13 +35,22 @@ object State {
     .toSignal(Seq.empty)
 
   val filtersSignal: Signal[Seq[(Ingredient, Var[ThreeStateSwitch.State])]] =
-    ingredientsSignal.map(_.map((_, Var(ThreeStateSwitch.State.Neutral))))
-
+    val initialFilters = LocalStorage.readFilters
+    ingredientsSignal.map(_.map { ingredient =>
+      val foundState = initialFilters
+        .find(_.ingredientId == ingredient.id)
+        .map(_.state)
+        .getOrElse(ThreeStateSwitch.State.Neutral)
+      (ingredient, Var.apply(foundState))
+    })
 
   val recipes: EventStream[Seq[Recipe]] = onSearchStream
     .withCurrentValueOf(recipesSignal, filtersSignal)
     .map {
       case (_, recipes, currentFilters) =>
+        // side effect
+        LocalStorage.writeFilters(currentFilters)
+
         val bannedIngredientIds = currentFilters.filter {
           case (_, state) => state.now() == ThreeStateSwitch.State.Negative
         }.map(_._1.id)
@@ -51,6 +62,8 @@ object State {
           .filter(r => r.ingredients.map(_.ingredient.id).intersect(bannedIngredientIds).isEmpty)
           .map(r => (r, r.ingredients.map(_.ingredient.id).intersect(includedIngredientIds).length))
           .sortBy(_._2)(Ordering.Int.reverse)
-          .map(_._1)
+          .collect {
+            case(recipe, includedOverlap) if includedOverlap > 0 => recipe
+          }
     }
 }

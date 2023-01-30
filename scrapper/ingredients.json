@@ -221,16 +221,11 @@
   },
   {
     "id": 45,
-    "name": "Alfalfa",
-    "typ": "Exotic"
-  },
-  {
-    "id": 46,
     "name": "Aprikosen",
     "typ": "AllYear"
   },
   {
-    "id": 47,
+    "id": 46,
     "name": "Kiwi",
     "typ": "Spice"
   }
