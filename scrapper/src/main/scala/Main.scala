@@ -1,17 +1,19 @@
-import json.Encoder
 import models.{Ingredient, Recipe}
 import sttp.client3.httpclient.zio.HttpClientZioBackend
 import zio.*
 import zio.Console.*
 import sttp.client3.*
 import sttp.model.Uri
+import io.circe.syntax.*
+import io.circe.generic.auto.*
+import serde.IngredientTypeSerde.given
 
 import scala.util.Try
 
 object Main extends ZIOAppDefault {
   private val mainUrl = uri"https://www.nutrilovers.de/pages/slow-juice-saft-rezepte-sammlung"
 
-  val appLogic = for {
+  private val appLogic = for {
     measureUnits <- Utils.loadMeasureUnits
     responseBody <- downloadHtml(mainUrl)
 
@@ -39,7 +41,7 @@ object Main extends ZIOAppDefault {
     ingredients <- Utils.loadIngredients
     updatedRecipes <- replaceIngredients(recipes, ingredients)
 
-    jsonString <- ZIO.succeed(Encoder.encodeRecipes(updatedRecipes))
+    jsonString <- ZIO.succeed(updatedRecipes.asJson.spaces2)
     _ <- ZIO.writeFile("./recipes.json", jsonString)
     
 //    _ <- ZIO.writeFile("./ingredients.json", Encoder.encodeIngredients(ingredients))
@@ -79,5 +81,5 @@ object Main extends ZIOAppDefault {
     ))
   }
 
-  override val run = appLogic.provideLayer(ZLayer(HttpClientZioBackend()))
+  override val run: ZIO[Any, Throwable, Unit] = appLogic.provideLayer(ZLayer(HttpClientZioBackend()))
 }

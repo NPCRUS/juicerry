@@ -1,9 +1,12 @@
 import com.raquo.airstream.web.AjaxEventStream
 import com.raquo.laminar.api.L.*
 import components.ThreeStateSwitch
-import models.{Ingredient, JsonSupport, Recipe}
+import models.{Ingredient, Recipe}
 import org.scalajs.dom.{EventSource, MouseEvent, document}
 import utils.LocalStorage
+import io.circe.generic.auto.*
+import io.circe.parser.decode
+import serde.IngredientTypeSerde.given
 
 import scala.scalajs.js
 
@@ -26,12 +29,12 @@ object State {
 
   private val recipesSignal: Signal[Seq[Recipe]] = AjaxEventStream.get(
     url = "./recipes.json"
-  ).map(r => JsonSupport.decodeRecipes(r.responseText))
+  ).map(r => decode[Seq[Recipe]](r.responseText).getOrElse(Seq.empty))
     .toSignal(Seq.empty)
 
   private val ingredientsSignal: Signal[Seq[Ingredient]] = AjaxEventStream.get(
     url = "./ingredients.json"
-  ).map(r => JsonSupport.decodeIngredients(r.responseText).fold(_ => Seq.empty, r => r))
+  ).map(r => decode[Seq[Ingredient]](r.responseText).fold(_ => Seq.empty, r => r))
     .toSignal(Seq.empty)
 
   val filtersSignal: Signal[Seq[(Ingredient, Var[ThreeStateSwitch.State])]] =

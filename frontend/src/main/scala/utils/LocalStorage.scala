@@ -8,16 +8,12 @@ import io.circe.syntax._
 import models.{Ingredient, IngredientType}
 import org.scalajs.dom
 import com.raquo.laminar.api.L.*
+import serde.ThreeStateSwitchSerde.given
 
 import scala.util.Try
 
 object LocalStorage {
   private val key = "filters"
-
-  implicit private val ingredientTypeEncoder: Encoder[ThreeStateSwitch.State] =
-    (a: ThreeStateSwitch.State) => Json.fromString(a.toString)
-  implicit private val ingredientTypeDecoder: Decoder[ThreeStateSwitch.State] =
-    Decoder.decodeString.emapTry(s => Try(ThreeStateSwitch.State.valueOf(s)))
 
   def readFilters: Seq[FiltersRep] =
     val jsonString = dom.window.localStorage.getItem(key)
